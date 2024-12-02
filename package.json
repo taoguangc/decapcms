@@ -1,0 +1,19 @@
+{
+  "name": "tailwindcss-cli-simple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.0.0-beta.4",
+    "tailwindcss": "^4.0.0-beta.4"
+  },
+  "dependencies": {
+    "lenis": "^1.1.17",
+    "motion": "^11.12.0"
+  }
+}
