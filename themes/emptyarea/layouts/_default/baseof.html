@@ -2,6 +2,7 @@
 <html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
   <head>
     {{ partial "head.html" . }}
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
   <body>
     {{ partial "header.html" . }} {{ block "main" . }}{{ end }} {{ partial "footer.html" . }}
